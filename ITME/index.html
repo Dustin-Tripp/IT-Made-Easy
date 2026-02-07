@@ -1,704 +1,492 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
-    <head>
-<!-- Meta Tags -->
-<meta charset="utf-8">
-<meta http-equiv="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="keywords" content="custom software development, ERP systems, inventory management systems, warehouse overview systems, web development, web hosting, IT support, system administration, network administration, database management, database administration, data structure planning, IT solutions, IT services, tech support, business software solutions, software engineering, cloud computing, cybersecurity, data analytics, managed IT services, network security, server management, virtualization, IT consulting, IT outsourcing, IT maintenance, software integration, mobile app development, e-commerce solutions, CRM systems, SCM systems, business intelligence, IT infrastructure, software customization, cloud services, IT troubleshooting, tech consulting, digital transformation, IT automation, IT project management, IT strategy, network setup, software upgrades, database optimization, data migration, IT training, technical support, IT monitoring, IT asset management, software deployment, IT documentation, technology solutions, IT development, IT enhancement, software testing, IT innovation, tech advancements, IT expertise, IT leadership, data security, IT compliance, IT efficiency, IT reliability, IT excellence, customer support, customer service, helpdesk services, integration services, system integration, application integration, web hosting services, React development, React JS, frontend development, backend development, API integration, continuous integration, web hosting solutions, cloud hosting, dedicated hosting, shared hosting, VPS hosting, ITME">
-<meta name="description" content="ITME (IT Made Easy) provides comprehensive IT solutions including custom software development, ERP systems, inventory management, web development, web hosting, IT support, system and network administration, database management, and data structure planning. Contact us today to streamline your business operations with cutting-edge technology and expert support.">
-<meta name='copyright' content='ITME'>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8" />
+    <meta http-equiv="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="keywords"
+      content="custom software development, ERP systems, inventory management systems, warehouse overview systems, web development, web hosting, IT support, system administration, network administration, database management, database administration, data structure planning, IT solutions, IT services, tech support, business software solutions, software engineering, cloud computing, cybersecurity, data analytics, managed IT services, network security, server management, virtualization, IT consulting, IT outsourcing, IT maintenance, software integration, mobile app development, e-commerce solutions, CRM systems, SCM systems, business intelligence, IT infrastructure, software customization, cloud services, IT troubleshooting, tech consulting, digital transformation, IT automation, IT project management, IT strategy, network setup, software upgrades, database optimization, data migration, IT training, technical support, IT monitoring, IT asset management, software deployment, IT documentation, technology solutions, IT development, IT enhancement, software testing, IT innovation, tech advancements, IT expertise, IT leadership, data security, IT compliance, IT efficiency, IT reliability, IT excellence, customer support, customer service, helpdesk services, integration services, system integration, application integration, web hosting services, React development, React JS, frontend development, backend development, API integration, continuous integration, web hosting solutions, cloud hosting, dedicated hosting, shared hosting, VPS hosting, ITME"
+    />
+    <meta
+      name="description"
+      content="ITME helps small to mid-sized businesses eliminate IT headaches through reliable network administration, custom software development, and expert IT consulting. Reduce downtime and get IT solutions that actually fit how your business works. Schedule a free IT infrastructure review today."
+    />
+    <meta name="copyright" content="ITME" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
-		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-		  
-		<script>
-			function onSubmit(e) {
-			  e.preventDefault();
-			  grecaptcha.enterprise.ready(async () => {
-				const token = await grecaptcha.enterprise.execute('6Ldm-LEpAAAAACtLkWnLcYod1G6eBUSx_4JA3_cx', {action: 'submit'});
-				document.getElementById('recaptchaResponse').value = token;
-				e.target.submit();
-			  });
-			}
-		</script>
-		
-		<!-- Title -->
-        <title>I.T. Made Easy. Lets build your future</title>
-		
-		<!-- Favicon -->
-        <link rel="icon" href="img/favicon.png">
-		
-		<!-- Google Fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+    <script>
+      function onSubmit(e) {
+        e.preventDefault();
+        grecaptcha.enterprise.ready(async () => {
+          const token = await grecaptcha.enterprise.execute(
+            "6Ldm-LEpAAAAACtLkWnLcYod1G6eBUSx_4JA3_cx",
+            { action: "submit" },
+          );
+          document.getElementById("recaptchaResponse").value = token;
+          e.target.submit();
+        });
+      }
+    </script>
 
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<!-- Nice Select CSS -->
-		<link rel="stylesheet" href="css/nice-select.css">
-		<!-- Font Awesome CSS -->
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-		<!-- icofont CSS -->
-        <link rel="stylesheet" href="css/icofont.css">
-		<!-- Slicknav -->
-		<link rel="stylesheet" href="css/slicknav.min.css">
-		<!-- Owl Carousel CSS -->
-        <link rel="stylesheet" href="css/owl-carousel.css">
-		<!-- Datepicker CSS -->
-		<link rel="stylesheet" href="css/datepicker.css">
-		<!-- Animate CSS -->
-        <link rel="stylesheet" href="css/animate.min.css">
-		<!-- Magnific Popup CSS -->
-        <link rel="stylesheet" href="css/magnific-popup.css">
-		
-		<!-- Medipro CSS -->
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="css/responsive.css">
-		
-    </head>
-    <body>
-	
-		<!-- Preloader -->
-		<div class="preloader">
-			<div class="loader">
-				<div class="loader-outter"></div>
-				<div class="loader-inner"></div>
-		
-				<div class="indicator"> 
-					<svg width="40px" height="20px">
-						<polyline id="leftBracket" points="5,10 10,5 10,15"></polyline>
-						<polyline id="rightBracket" points="35,10 30,5 30,15"></polyline>
-					</svg>
-				</div>
-			</div>
-		</div>
-		
-        <!-- End Preloader -->
-		
-		<!-- Get Pro Button -->
-		<ul class="pro-features">
-			<a class="get-pro" href="#">Free Quote</a>
-			<li class="big-title">Custom Software Solutions</li>
-			<li class="title">Why Choose Us?</li>
-			<li>Expertise in Latest Technologies</li>
-			<li>Customized Solutions Tailored to Your Needs</li>
-			<li>Efficient and Scalable Software Design</li>
-			<li>Client-Centric Approach for Maximum Satisfaction</li>
-			<li>Free Initial Consultation and Quote</li>
-			<div class="button">
-				<a href="contact.html" class="btn">Contact Us for a Free Quote</a>
-				<a href="portfolio-details.html" class="btn">Explore Our Projects</a>
-			</div>
-		</ul>
-	
-		<!-- Header Area -->
-		<header class="header" >
-			<!-- Topbar -->
-			<div class="topbar">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-6 col-md-5 col-12">
-							<!-- Contact -->
-							<ul class="top-link">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="portfolio-details.html">Our Projects</a></li>
-								<li><a href="contact.html">Contact</a></li>
-								<li><a href="contact.html">Get a Quote</a></li>
-								<!-- <li><a href="faq.html">FAQ</a></li> -->
-							</ul>
-							<!-- End Contact -->
-						</div>
-						<div class="col-lg-6 col-md-7 col-12">
-							<!-- Top Contact -->
-							<ul class="top-contact">
-								<li><i class="fa fa-phone"></i>+1 573 561 4583</li>
-								<li><i class="fa fa-envelope"></i><a href="mailto:support@itme573.com">support@itme573.com</a></li>
-							</ul>
-							<!-- End Top Contact -->
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- End Topbar -->
-			<!-- Header Inner -->
-			<div class="header-inner">
-				<div class="container">
-					<div class="inner">
-						<div class="row">
-							<div class="col-lg-3 col-md-3 col-12">
-								<!-- Start Logo -->
-								<div class="logo">
-									<a href="index.html"><img src="img/ITME_LOGO_1.png" alt="#"></a>
-								</div>
-								<!-- End Logo -->
-								<!-- Mobile Nav -->
-								<div class="mobile-nav"></div>
-								<!-- End Mobile Nav -->
-							</div>
-							<div class="col-lg-7 col-md-9 col-12">
-								<!-- Main Menu -->
-								<div class="main-menu">
-									<nav class="navigation">
-										<ul class="nav menu">
-											<li class="active"><a href="index.html">Home <i class="icofont-rounded-down"></i></a>
-												<!-- <ul class="dropdown">
+    <!-- Title -->
+    <title>
+      ITME | Local IT Support for Small Businesses in Southeast Missouri
+    </title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.png" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Nice Select CSS -->
+    <link rel="stylesheet" href="css/nice-select.css" />
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <!-- icofont CSS -->
+    <link rel="stylesheet" href="css/icofont.css" />
+    <!-- Slicknav -->
+    <link rel="stylesheet" href="css/slicknav.min.css" />
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="css/owl-carousel.css" />
+    <!-- Datepicker CSS -->
+    <link rel="stylesheet" href="css/datepicker.css" />
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <!-- Magnific Popup CSS -->
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+
+    <!-- Medipro CSS -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="loader">
+        <div class="loader-outter"></div>
+        <div class="loader-inner"></div>
+
+        <div class="indicator">
+          <svg width="40px" height="20px">
+            <polyline id="leftBracket" points="5,10 10,5 10,15"></polyline>
+            <polyline id="rightBracket" points="35,10 30,5 30,15"></polyline>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Preloader -->
+
+    <!-- Header Area -->
+    <header class="header">
+      <!-- Topbar -->
+      <div class="topbar">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-5 col-12">
+              <!-- Contact -->
+              <ul class="top-link">
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html">Free IT Review</a></li>
+                <!-- <li><a href="faq.html">FAQ</a></li> -->
+              </ul>
+              <!-- End Contact -->
+            </div>
+            <div class="col-lg-6 col-md-7 col-12">
+              <!-- Top Contact -->
+              <ul class="top-contact">
+                <li><i class="fa fa-phone"></i>+1 573 561 4583</li>
+                <li>
+                  <i class="fa fa-envelope"></i
+                  ><a href="mailto:support@itme573.com">support@itme573.com</a>
+                </li>
+              </ul>
+              <!-- End Top Contact -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Topbar -->
+      <!-- Header Inner -->
+      <div class="header-inner">
+        <div class="container">
+          <div class="inner">
+            <div class="row">
+              <div class="col-lg-3 col-md-3 col-12">
+                <!-- Start Logo -->
+                <div class="logo">
+                  <a href="index.html"
+                    ><img src="img/ITME_LOGO_1.png" alt="#"
+                  /></a>
+                </div>
+                <!-- End Logo -->
+                <!-- Mobile Nav -->
+                <div class="mobile-nav"></div>
+                <!-- End Mobile Nav -->
+              </div>
+              <div class="col-lg-7 col-md-9 col-12">
+                <!-- Main Menu -->
+                <div class="main-menu">
+                  <nav class="navigation">
+                    <ul class="nav menu">
+                      <li class="active">
+                        <a href="index.html">Home</a>
+                        <!-- <ul class="dropdown">
 													<li><a href="index.html">Home Page 1</a></li>
 												</ul> -->
-											</li>
-											<!-- <li><a href="#">Doctos </a></li> -->
-											<li><a href="portfolio-details.html">Our Projects</a></li>
-											<!-- <li><a href="#">Pages <i class="icofont-rounded-down"></i></a> -->
-												<!-- <ul class="dropdown">
+                      </li>
+                      <!-- <li><a href="#">Doctos </a></li> -->
+
+                      <!-- <li><a href="#">Pages <i class="icofont-rounded-down"></i></a> -->
+                      <!-- <ul class="dropdown">
 													<li><a href="404.html">404 Error</a></li>
 												</ul>
 											</li> -->
-											<!-- <li><a href="#">Blogs <i class="icofont-rounded-down"></i></a> -->
-												<!-- <ul class="dropdown"> -->
-													<!-- <li><a href="blog-single.html">Blog Details</a></li> -->
-												<!-- </ul> -->
-											<!-- </li> -->
-											<li><a href="contact.html">Contact Us</a></li>
-										</ul>
-									</nav>
-								</div>
-								<!--/ End Main Menu -->
-							</div>
-							<div class="col-lg-2 col-12">
-								<div class="get-quote">
-									<a href="contact.html" class="btn">Get a Quote</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--/ End Header Inner -->
-		</header>
-		<!-- End Header Area -->
-		
-		<!-- Slider Area -->
-		<section class="slider">
-			<div class="hero-slider">
-				<!-- Start Single Slider -->
-				<div class="single-slider" style="background-image:url('img/ITME_Database_1.jpg')">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-7">
-								<div class="text">
-									<h1>Expertise in <span>Front-End & Back-End</span> Development You Can <span>Depend On</span></h1>
-									<p>Specializing in front-end React and back-end SQL, we provide comprehensive software solutions for businesses of all sizes. Our commitment is to deliver robust, scalable, and cutting-edge applications tailored to meet your unique business needs.</p>
-									<div class="button">
-										<a href="contact.html" class="btn">Get a Free Quote</a>
-										<a href="contact.html" class="btn primary">Contact Now</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- End Single Slider -->
-				<!-- Start Single Slider -->
-				<div class="single-slider" style="background-image:url('img/ITME_Tech1.jpg')">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-7">
-								<div class="text">
-									<h1>We Deliver <span>Innovative</span> Software Solutions You Can <span>Trust!</span></h1>
-									<p>At the forefront of cutting-edge technology, we specialize in developing custom software
-										 tailored to your unique business needs. Our team ensures seamless integration, scalability, and efficient 
-										 performance to elevate your business.</p>
-									<div class="button">
-										<a href="contact.html" class="btn">Get Your Free Quote</a>
-										<!-- <a href="about-us.html" class="btn primary">Learn More About Us</a> -->
-									</div>
-								</div>
-								
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Start End Slider -->
-				<!-- Start Single Slider -->
-				<div class="single-slider" style="background-image:url('img/ITME_TechNetworking_1.jpg')">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-7">
-								<div class="text">
-									<h1>From <span>Software Development</span> to <span>Network Management</span></h1>
-									<p>Our team excels in delivering comprehensive tech solutions, including web and desktop solutions 
-										, database management, and robust network services. We cater to businesses of all sizes, ensuring 
-										tailored, efficient, and scalable solutions.</p>
-									<div class="button">
-										<a href="portfolio-details.html" class="btn">Explore Our Projects</a>
-										<a href="contact.html" class="btn primary">Contact Us Now</a>
-									</div>
-								</div>								
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- End Single Slider -->
-			</div>
-		</section>
-		<!--/ End Slider Area -->
-		
-		<!-- Start Schedule Area -->
-		<section class="schedule">
-			<div class="container">
-				<div class="schedule-inner">
-					<div class="row">
-						<div class="col-lg-4 col-md-6 col-12">
-							<!-- single-schedule -->
-							<div class="single-schedule first">
-								<div class="inner">
-									<div class="icon">
-										<i class="fa fa-code"></i> <!-- Updated Icon -->
-									</div>
-									<div class="single-content">
-										<span>Expert Development</span>
-										<h4>Web Development Solutions</h4>
-										<p>We specialize in creating dynamic, responsive websites 
-											using cutting-edge technologies like React...</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6 col-12">
-							<!-- single-schedule -->
-							<div class="single-schedule middle">
-								<div class="inner">
-									<div class="icon">
-										<i class="fa fa-database"></i> <!-- Updated Icon -->
-									</div>
-									<div class="single-content">
-										<span>Data Expertise</span>
-										<h4>Database Management & Analytics</h4>
-										<p>Our skilled team provides robust database management services...</p>
-									</div>                                  
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-12 col-12">
-							<!-- single-schedule -->
-							<div class="single-schedule last">
-								<div class="inner">
-									<div class="icon">
-										<i class="fa fa-wifi"></i> <!-- Updated Icon -->
-									</div>
-									<div class="single-content">
-										<span>Network Solutions</span>
-										<h4>Network Design & Management</h4>
-										<p>Our team excels in designing and managing scalable, secure networks...</p>
-									</div>                                  
-								</div>
-							</div>
-						</div>
-					</div>
-					
-				</div>
-			</div>
-		</section>
-		<!--/End Start schedule Area -->
+                      <!-- <li><a href="#">Blogs <i class="icofont-rounded-down"></i></a> -->
+                      <!-- <ul class="dropdown"> -->
+                      <!-- <li><a href="blog-single.html">Blog Details</a></li> -->
+                      <!-- </ul> -->
+                      <!-- </li> -->
+                      <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <!--/ End Main Menu -->
+              </div>
+              <div class="col-lg-2 col-12">
+                <div class="get-quote">
+                  <a href="contact.html" class="btn">Free IT Review</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/ End Header Inner -->
+    </header>
+    <!-- End Header Area -->
 
-		<!-- Start Feautes -->
-		<section class="Feautes section">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="section-title">
-							<h2>We Are Always Ready to Elevate Your Digital Experience</h2>
-							<img src="img/section-img.png" alt="#">
-							<p>Expertise in cutting-edge software development and technology solutions tailored to your needs.</p>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-4 col-12">
-						<!-- Start Single features -->
-						<div class="single-features">
-							<div class="signle-icon">
-								<i class="icofont icofont-code-alt"></i>
-							</div>
-							<h3>Custom Development</h3>
-							<p>Offering bespoke software solutions, including web applications, mobile apps, and enterprise software.</p>
-						</div>
-						<!-- End Single features -->
-					</div>
-					<div class="col-lg-4 col-12">
-						<!-- Start Single features -->
-						<div class="single-features">
-							<div class="signle-icon">
-								<i class="icofont icofont-database"></i>
-							</div>
-							<h3>Database Management</h3>
-							<p>Expert database services ensuring data integrity, efficiency, and scalability for your business needs.</p>
-						</div>
-						<!-- End Single features -->
-					</div>
-					<div class="col-lg-4 col-12">
-						<!-- Start Single features -->
-						<div class="single-features last">
-							<div class="signle-icon">
-								<i class="icofont icofont-network-tower"></i>
-							</div>
-							<h3>Network Solutions</h3>
-							<p>Providing robust network infrastructure and management services for secure and reliable connectivity.</p>
-						</div>
-						<!-- End Single features -->
-					</div>
-				</div>
-			</div>
-			
-		</section>
-		<!--/ End Feautes -->
-		
-		<!-- Start Fun-facts -->
-		<div id="fun-facts" class="fun-facts section overlay">
-<div class="container">
-    <div class="row">
-        <div class="col-lg-3 col-md-6 col-12">
+    <!-- Slider Area -->
+    <section class="slider">
+      <div class="hero-slider">
+        <!-- Slide 1: Primary hook -->
+        <div
+          class="single-slider"
+          style="
+            background-image: url(&quot;img/ITME_TechNetworking_1.jpg&quot;);
+          "
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-7">
+                <div class="text">
+                  <h1>When Your IT Fails, Your <span>Business Stops</span>.</h1>
+                  <p>
+                    ITME helps small businesses prevent downtime, data loss, and
+                    security surprises. Get a plain-English risk check so you
+                    know what’s safe—and what’s a ticking time bomb.
+                  </p>
+                  <div class="button">
+                    <a href="contact.html" class="btn"
+                      >Get a Free IT Risk Check</a
+                    >
+                    <a href="contact.html" class="btn primary"
+                      >Talk to a Local IT Expert</a
+                    >
+                  </div>
+                  <p style="margin-top: 12px; font-size: 14px; opacity: 0.9">
+                    Serving Southeast Missouri and surrounding areas • No
+                    pressure • Fast response
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2: Backups / recovery -->
+        <div
+          class="single-slider"
+          style="background-image: url(&quot;img/ITME_Database_1.jpg&quot;)"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-7">
+                <div class="text">
+                  <h1>Backups You Can <span>Actually Trust</span></h1>
+                  <p>
+                    Most businesses *think* they have backups—until they need
+                    them. We verify backups, recovery, and monitoring so you’re
+                    not guessing.
+                  </p>
+                  <div class="button">
+                    <a href="contact.html" class="btn">Check My Backups</a>
+                    <a href="contact.html" class="btn primary"
+                      >Request a Callback</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3: Network / security -->
+        <div
+          class="single-slider"
+          style="background-image: url(&quot;img/ITME_Tech1.jpg&quot;)"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-7">
+                <div class="text">
+                  <h1>Secure Networks for <span>Growing Teams</span></h1>
+                  <p>
+                    Slow Wi-Fi, random disconnects, and “it works sometimes”
+                    networks kill productivity. We design and maintain reliable
+                    infrastructure with security built in.
+                  </p>
+                  <div class="button">
+                    <a href="contact.html" class="btn"
+                      >Get a Free Network Check</a
+                    >
+                    <a href="contact.html" class="btn primary">Contact Us</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/ End Slider Area -->
+
+    <!-- Start Schedule Area -->
+    <section class="schedule">
+      <div class="container">
+        <div class="schedule-inner">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="single-schedule first">
+                <div class="inner">
+                  <div class="icon">
+                    <i class="fa fa-shield"></i>
+                  </div>
+                  <div class="single-content">
+                    <span>Free Assessment</span>
+                    <h4>IT Risk Check</h4>
+                    <p>
+                      We’ll identify the top issues that cause downtime, data
+                      loss, and security problems—then give you a clear plan.
+                    </p>
+                    <a href="contact.html"
+                      >Get My Risk Check <i class="fa fa-long-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="single-schedule middle">
+                <div class="inner">
+                  <div class="icon">
+                    <i class="fa fa-hdd-o"></i>
+                  </div>
+                  <div class="single-content">
+                    <span>Protection</span>
+                    <h4>Backups & Recovery</h4>
+                    <p>
+                      Don’t “hope” backups work. We verify them, monitor them,
+                      and make sure recovery is possible when it matters.
+                    </p>
+                    <a href="contact.html"
+                      >Verify My Backups <i class="fa fa-long-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 col-12">
+              <div class="single-schedule last">
+                <div class="inner">
+                  <div class="icon">
+                    <i class="fa fa-wifi"></i>
+                  </div>
+                  <div class="single-content">
+                    <span>Reliability</span>
+                    <h4>Network & Security</h4>
+                    <p>
+                      Fast, stable, secure networks for teams that need systems
+                      to work every day—not “most days.”
+                    </p>
+                    <a href="contact.html"
+                      >Check My Network <i class="fa fa-long-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/End Start schedule Area -->
+
+    <!-- Start Fun-facts -->
+    <div id="fun-facts" class="fun-facts section overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-12">
             <!-- Start Single Fun -->
             <div class="single-fun">
-                <i class="icofont icofont-code"></i> <!-- Updated icon for Completed Projects -->
-                <div class="content">
-                    <span class="counter">20</span>
-                    <p>Completed Projects</p>
-                </div>
+              <i class="icofont icofont-users-alt-5"></i>
+              <div class="content">
+                <span class="counter">67</span>
+                <p>Small Businesses Served</p>
+              </div>
             </div>
             <!-- End Single Fun -->
-        </div>
-        <div class="col-lg-3 col-md-6 col-12">
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
             <!-- Start Single Fun -->
             <div class="single-fun">
-                <i class="icofont icofont-clock-time"></i> <!-- Updated icon for Years of Experience -->
-                <div class="content">
-                    <span class="counter">30</span>
-                    <p>Combined Years Experience</p> <!-- Corrected spelling -->
-                </div>
+              <i class="icofont icofont-network-tower"></i>
+              <div class="content">
+                <span class="counter">135</span>
+                <p>Network Systems Deployed</p>
+              </div>
             </div>
             <!-- End Single Fun -->
-        </div>
-        <div class="col-lg-3 col-md-6 col-12">
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
             <!-- Start Single Fun -->
             <div class="single-fun">
-                <i class="icofont icofont-simple-smile"></i> <!-- Updated icon for Satisfied Clients -->
-                <div class="content">
-                    <span class="counter">19</span>
-                    <p>Satisfied Clients</p> <!-- Corrected spelling -->
-                </div>
+              <i class="icofont icofont-check-circled"></i>
+              <div class="content">
+                <span class="counter">270</span>
+                <p>Custom Solutions Delivered</p>
+              </div>
             </div>
             <!-- End Single Fun -->
+          </div>
+          <!-- Fourth column is commented out as per your code -->
         </div>
-        <!-- Fourth column is commented out as per your code -->
+      </div>
     </div>
-</div>
+    <!--/ End Fun-facts -->
 
-		</div>
-		<!--/ End Fun-facts -->
-		
-		<!-- Start Why choose -->
-		<section class="why-choose section" >
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="section-title">
-							<h2>Diverse Services to Elevate Your Digital Presence</h2>
-							<img src="img/section-img.png" alt="#">
-							<p>We specialize in a wide range of technology solutions to meet your unique needs. Our offerings include Full Stack Applications, delivering comprehensive front and back-end development for dynamic and responsive web platforms. For desktop environments, our Full Stack Desktop Applications are designed for robustness and user-friendliness. Our Website Design services ensure your online presence is both aesthetically pleasing and functionally superior. In the realm of data, we excel in Database Management, providing secure, scalable, and efficient database solutions. Additionally, our IT and Networking Management services ensure your technology infrastructure is optimized, secure, and reliable. Let us help you transform your digital strategy with our expert services.</p>
-						</div>
-					</div>					
-				</div>
-				<div class="row">
-					<div class="col-lg-6 col-12">
-						<!-- Start Choose Left -->
-						<div class="choose-left">
-							<h3>Who We Are</h3>
-							<p>We are a dynamic, compact team of exceptional developers and network specialists committed to delivering top-tier digital solutions.</p>
-							<p>Our strength lies in our guarantee and unwavering support for our products, ensuring every project meets the highest standards.</p>
-							<div class="row">
-								<div class="col-lg-6">
-									<ul class="list">
-										<li><i class="fa fa-caret-right"></i> Cost-effective & efficient, providing value without compromising quality.</li>
-										<li><i class="fa fa-caret-right"></i> Full-stack expertise, covering everything from web to desktop design.</li>
-									</ul>
-								</div>
-								<div class="col-lg-6">
-									<ul class="list">
-										<li><i class="fa fa-caret-right"></i> Strong and fast, capable of handling diverse and evolving client needs.</li>
-										<li><i class="fa fa-caret-right"></i> A reliable partner in your digital journey, focused on robust skills and swift execution.</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						
-						<!-- End Choose Left -->
-					</div>
-					<div class="col-lg-6 col-12">
-						<!-- Start Choose Rights -->
-						<!-- <div class="choose-right"> -->
-							<!-- <div class="video-image"> -->
-								<!-- Video Animation -->
-								<!-- <div class="promo-video"> -->
-									<!-- <div class="waves-block">
-										<div class="waves wave-1"><h3>Design</h3></div>
-										<div class="waves wave-2"><h3>Implimentation</h3></div>
-										<div class="waves wave-3"><h3>Full support</h3></div>
-									</div>
-								</div> -->
-								<!--/ End Video Animation -->
-								<!-- <a href="https://www.youtube.com/watch?v=1LEBag0x1iE" class="video video-popup mfp-iframe"><i class="fa fa-play"></i></a> -->
-							<!-- </div> -->
-						<!-- </div> -->
-						<!-- End Choose Rights -->
-					</div>
-				</div>
-			</div>
-		</section>
-		<!--/ End Why choose -->
-		
-		<!-- Start Call to action -->
-		<section class="call-action overlay" data-stellar-background-ratio="0.5">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 col-md-12 col-12">
-						<div class="content">
-							<h2>Looking for Expert IT Solutions? Call us @ 573-561-4583</h2>
-							<p>Our team is ready to provide you with cutting-edge IT and 
-								software solutions tailored to your business needs. Get 
-								in touch with us to start transforming your digital landscape 
-								today.</p>
-							<div class="button">
-								<a href="contact.html" class="btn">Contact Now</a>
-								<!-- <a href="about-us.html" class="btn primary">Learn More <i class="fa fa-long-arrow-right"></i></a> -->
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>			
-		</section>
-		<!--/ End Call to action -->
-		
-		<!-- Start portfolio -->
-		<section class="portfolio section" >
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="section-title">
-							<h2>Showcasing Our High-Quality Software Projects</h2>
-							<img src="img/section-img.png" alt="section image">
-							<p>Each project is a testament to our commitment to excellence, with a focus on innovative solutions, user-friendly design, and technical prowess. Dive into our portfolio to see the difference that professional software development can make.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-lg-12 col-12">
-						<div class="owl-carousel portfolio-slider">
-							<div class="single-pf">
-								<img src="img/ITME_Project_4.jpg" alt="#">
-								<a href="portfolio-details.html" class="btn">View Details</a>
-							</div>
-							<div class="single-pf">
-								<img src="img/ITME_Project_1.jpg" alt="#">
-								<a href="portfolio-details.html" class="btn">View Details</a>
-							</div>
-							<div class="single-pf">
-								<img src="img/ITME_Project_2.jpg" alt="#">
-								<a href="portfolio-details.html" class="btn">View Details</a>
-							</div>
-							<div class="single-pf">
-								<img src="img/ITME_Project_4.jpg" alt="#">
-								<a href="portfolio-details.html" class="btn">View Details</a>
-							</div>
-							<div class="single-pf">
-								<img src="img/ITME_Project_5.jpg" alt="#">
-								<a href="portfolio-details.html" class="btn">View Details</a>
-							</div>
-							<div class="single-pf">
-								<img src="img/ITME_Project_1.jpg" alt="#">
-								<a href="portfolio-details.html" class="btn">View Details</a>
-							</div>
-							<div class="single-pf">
-								<img src="img/ITME_Project_2.jpg" alt="#">
-								<a href="portfolio-details.html" class="btn">View Details</a>
-							</div>
-							<div class="single-pf">
-								<img src="img/ITME_Project_3.jpg" alt="#">
-								<a href="portfolio-details.html" class="btn">View Details</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!--/ End portfolio -->
-		
-		<!-- Start service -->
-		<section class="services section">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="section-title">
-							<h2>Comprehensive IT Services to Elevate Your Business Operations</h2>
-							<img src="img/section-img.png" alt="section image">
-							<p>Our expert team provides end-to-end IT services designed for seamless integration into your business landscape. Explore our software solutions, database management, and dedicated support.</p>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-4 col-md-6 col-12">
-						<!-- Start Single Service -->
-						<div class="single-service">
-							<i class="icofont icofont-computer"></i>
-							<h4><a href="service-details.html">Custom Software Development</a></h4>
-							<p>Our software development services are tailored to meet your business requirements, ensuring high performance and innovation in every code.</p>    
-						</div>
-						<!-- End Single Service -->
-					</div>
-					<div class="col-lg-4 col-md-6 col-12">
-						<!-- Start Single Service -->
-						<div class="single-service">
-							<i class="icofont icofont-database"></i>
-							<h4><a href="service-details.html">Database Management</a></h4>
-							<p>Efficient database management systems that provide secure, reliable, and quick access to your data, powering your business decisions.</p>    
-						</div>
-						<!-- End Single Service -->
-					</div>
-					<div class="col-lg-4 col-md-6 col-12">
-						<!-- Start Single Service -->
-						<div class="single-service">
-							<i class="icofont icofont-live-support"></i>
-							<h4><a href="service-details.html">24/7 Customer Support</a></h4>
-							<p>Round-the-clock support to maintain and manage your projects post-completion, ensuring continuous operation without interruptions.</p>    
-						</div>
-						<!-- End Single Service -->
-					</div>
-				</div>
-			</div>
-		</section>
-		
-		<!--/ End service -->
-		
-		<!-- Pricing Table -->
-		<section class="pricing-table section">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="section-title">
-							<h2>Our IT Services Offer Superior Value</h2>
-							<img src="img/section-img.png" alt="section image">
-							<p>Gain competitive advantage with our cost-effective and comprehensive IT services. Our transparent pricing ensures you receive exceptional value without hidden costs.</p>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<!-- Single Table for Web Application Development -->
-					<div class="col-lg-4 col-md-12 col-12">
-						<div class="single-table">
-							<!-- Table Head -->
-							<div class="table-head">
-								<div class="icon">
-									<i class="icofont icofont-code"></i>
-								</div>
-								<h4 class="title">Full Stack Applications</h4>
-								<div class="price">
-									<p class="amount">20% less <span>than market average</span></p>
-								</div>    
-							</div>
-							<!-- Table List -->
-							<ul class="table-list">
-								<li><i class="icofont icofont-ui-check"></i>Responsive Design</li>
-								<li><i class="icofont icofont-ui-check"></i>Custom Functionality</li>
-								<li><i class="icofont icofont-ui-check"></i>SEO-Optimized</li>
-								<li><i class="icofont icofont-ui-check"></i>Enhanced Security</li>
-							</ul>
-							<div class="table-bottom">
-								<a class="btn" href="contact.html">Get Quote</a>
-							</div>
-						</div>
-					</div>
-					<!-- End Single Table-->
-					
-					<!-- Single Table for Database Management -->
-					<div class="col-lg-4 col-md-12 col-12">
-						<div class="single-table featured">
-							<!-- Table Head -->
-							<div class="table-head">
-								<div class="icon">
-									<i class="icofont icofont-database"></i>
-								</div>
-								<h4 class="title">Database Management</h4>
-								<div class="price">
-									<p class="amount">15% less <span>than market average</span></p>
-								</div>    
-							</div>
-							<!-- Table List -->
-							<ul class="table-list">
-								<li><i class="icofont icofont-ui-check"></i>Real-Time Data Processing</li>
-								<li><i class="icofont icofont-ui-check"></i>Scalable Architectures</li>
-								<li><i class="icofont icofont-ui-check"></i>Data Security Compliance</li>
-								<li><i class="icofont icofont-ui-check"></i>Backup & Recovery</li>
-							</ul>
-							<div class="table-bottom">
-								<a class="btn" href="contact.html">Get Quote</a>
-							</div>
-						</div>
-					</div>
-					<!-- End Single Table-->
-					
-					<!-- Single Table for 24/7 Support -->
-					<div class="col-lg-4 col-md-12 col-12">
-						<div class="single-table">
-							<!-- Table Head -->
-							<div class="table-head">
-								<div class="icon">
-									<i class="icofont icofont-live-support"></i>
-								</div>
-								<h4 class="title">24/7 Customer Support</h4>
-								<div class="price">
-									<p class="amount">10% less <span>than market average</span></p>
-								</div>    
-							</div>
-							<!-- Table List -->
-							<ul class="table-list">
-								<li><i class="icofont icofont-ui-check"></i>Immediate Assistance</li>
-								<li><i class="icofont icofont-ui-check"></i>Maintenance & Updates</li>
-								<li><i class="icofont icofont-ui-check"></i>Monitoring & Alerts</li>
-								<li><i class="icofont icofont-ui-check"></i>Issue Resolution</li>
-							</ul>
-							<div class="table-bottom">
-								<a class="btn" href="contact.html">Get Quote</a>
-							</div>
-						</div>
-					</div>
-					<!-- End Single Table-->
-				</div>    
-			</div>    
-		</section>		
-		<!--/ End Pricing Table -->
-		
-		
-		
-		<!-- Start Blog Area -->
-		<!-- <section class="blog section" id="blog"> -->
-			<!-- <div class="container"> -->
-				<!-- <div class="row"> -->
-					<!-- <div class="col-lg-12"> -->
-						<!-- <div class="section-title"> -->
-							<!-- <h2>Latest Insights in Software Development</h2> -->
-							<!-- <img src="img/section-img.png" alt="Tech Blog Section Image"> -->
-							<!-- <p>Explore our latest articles on software trends, tech innovations, and insights into the future of technology and its impact on businesses.</p> -->
-						<!-- </div> -->
-					<!-- </div> -->
-				<!-- </div> -->
-				<!-- <div class="row"> -->
-					<!-- <div class="col-lg-4 col-md-6 col-12"> -->
-						<!-- Single Blog -->
-						<!-- <div class="single-news">
+    <!-- Start Call to action -->
+    <section class="call-action overlay" data-stellar-background-ratio="0.5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-12">
+            <div class="content">
+              <h2>Not Sure If Your IT Is a Risk?</h2>
+              <p>
+                Most businesses don’t realize there’s a problem until something
+                breaks. We’ll take a look and give you clear answers—no
+                pressure.
+              </p>
+              <div class="button">
+                <a href="contact.html" class="btn">Contact Now</a>
+                <!-- <a href="about-us.html" class="btn primary">Learn More <i class="fa fa-long-arrow-right"></i></a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/ End Call to action -->
+
+    <!-- Start service -->
+    <section class="services section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section-title">
+              <h2>What We Do (In Plain English)</h2>
+              <img src="img/section-img.png" alt="section image" />
+              <p>
+                We help small businesses keep their systems running, their data
+                safe, and their teams productive—without needing in-house IT.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="single-service">
+              <i class="icofont icofont-network-tower"></i>
+              <h4>Managed IT & Network Support</h4>
+              <p>
+                Proactive monitoring, maintenance, and support to prevent
+                downtime and IT surprises.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="single-service">
+              <i class="icofont icofont-shield"></i>
+              <h4>Backups, Security & Monitoring</h4>
+              <p>
+                Verified backups, security checks, and alerts so problems are
+                caught before they become emergencies.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="single-service">
+              <i class="icofont icofont-support"></i>
+              <h4>IT Guidance for Small Businesses</h4>
+              <p>
+                Clear advice, planning, and improvements tailored to how your
+                business actually operates.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--/ End service -->
+
+    <!-- Start Blog Area -->
+    <!-- <section class="blog section" id="blog"> -->
+    <!-- <div class="container"> -->
+    <!-- <div class="row"> -->
+    <!-- <div class="col-lg-12"> -->
+    <!-- <div class="section-title"> -->
+    <!-- <h2>Latest Insights in Software Development</h2> -->
+    <!-- <img src="img/section-img.png" alt="Tech Blog Section Image"> -->
+    <!-- <p>Explore our latest articles on software trends, tech innovations, and insights into the future of technology and its impact on businesses.</p> -->
+    <!-- </div> -->
+    <!-- </div> -->
+    <!-- </div> -->
+    <!-- <div class="row"> -->
+    <!-- <div class="col-lg-4 col-md-6 col-12"> -->
+    <!-- Single Blog -->
+    <!-- <div class="single-news">
 							<div class="news-head">
 								<img src="img/blog-tech1.jpg" alt="Agile Development">
 							</div>
@@ -710,11 +498,11 @@
 								</div>
 							</div>
 						</div> -->
-						<!-- End Single Blog -->
-					<!-- </div> -->
-					<!-- <div class="col-lg-4 col-md-6 col-12"> -->
-						<!-- Single Blog -->
-						<!-- <div class="single-news">
+    <!-- End Single Blog -->
+    <!-- </div> -->
+    <!-- <div class="col-lg-4 col-md-6 col-12"> -->
+    <!-- Single Blog -->
+    <!-- <div class="single-news">
 							<div class="news-head">
 								<img src="img/blog-tech2.jpg" alt="Cybersecurity Trends">
 							</div>
@@ -726,11 +514,11 @@
 								</div>
 							</div>
 						</div> -->
-						<!-- End Single Blog -->
-					<!-- </div> -->
-					<!-- <div class="col-lg-4 col-md-6 col-12"> -->
-						<!-- Single Blog -->
-						<!-- <div class="single-news">
+    <!-- End Single Blog -->
+    <!-- </div> -->
+    <!-- <div class="col-lg-4 col-md-6 col-12"> -->
+    <!-- Single Blog -->
+    <!-- <div class="single-news">
 							<div class="news-head">
 								<img src="img/blog-tech3.jpg" alt="Data Analytics Breakthroughs">
 							</div>
@@ -742,16 +530,16 @@
 								</div>
 							</div>
 						</div> -->
-						<!-- End Single Blog -->
-					<!-- </div> -->
-				<!-- </div> -->
-			<!-- </div> -->
-		<!-- </section> -->
-		
-		<!-- End Blog Area -->
-		
-		<!-- Start clients -->
-		<!-- <div class="clients overlay">
+    <!-- End Single Blog -->
+    <!-- </div> -->
+    <!-- </div> -->
+    <!-- </div> -->
+    <!-- </section> -->
+
+    <!-- End Blog Area -->
+
+    <!-- Start clients -->
+    <!-- <div class="clients overlay">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-12">
@@ -788,94 +576,158 @@
 				</div>
 			</div>
 		</div> -->
-		<!--/Ens clients -->
-		
-		<!-- Start Appointment -->
-		<section class="appointment">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="section-title">
-							<h2>Embarking on a Groundbreaking Project? Let’s Collaborate</h2>
-							<img src="img/section-img.png" alt="Contact Section Image">
-							<p>From innovative software development to advanced database solutions, our seasoned experts excel in a spectrum of services including Desktop Application Development and Comprehensive Business Solutions. We’re eager to dive into your unique challenges, offering bespoke strategies that align with your vision. Reach out for a customized consultation experience.</p>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-6 col-md-12 col-12">
-						<!-- Updated action attribute to point to the PHP script -->
-						<form class="form" action="/mail/mail.php" method="post">
-							<div class="row">
-								<div class="col-lg-6 col-md-6 col-12">
-									<div class="form-group">
-										<input name="name" type="text" placeholder="Name" required>
-									</div>
-								</div>
-								<div class="col-lg-6 col-md-6 col-12">
-									<div class="form-group">
-										<input name="email" type="email" placeholder="Email" required>
-									</div>
-								</div>
-								<div class="col-lg-6 col-md-6 col-12">
-									<div class="form-group">
-										<input name="phone" type="text" placeholder="Phone" required>
-									</div>
-								</div>
-								<div class="col-lg-6 col-md-6 col-12">
-									<div class="form-group">
-										<select class="form-control wide" name="service" required>
-											<option value="" selected disabled>Service Interested In</option>
-											<option value="web-dev">Web Development</option>
-											<option value="db-manage">Database Management</option>
-											<option value="it-support">IT & Networking Support</option>
-											<option value="desktop-app">Desktop Application Development</option>
-											<option value="business-solution">Business & Enterprise Solutions</option>
-											<option value="other">Other</option>
-										</select>
-									</div>
-								</div>
-								<div class="col-lg-6 col-md-6 col-12">
-									<div class="form-group">
-										<input type="text" placeholder="Preferred Consultation Date" id="datepicker" name="date" required>
-									</div>
-								</div>
-								<div class="col-lg-12 col-md-12 col-12">
-									<div class="form-group">
-										<textarea name="message" placeholder="Describe your project or inquiry..." required></textarea>
-									</div>
-								</div>
-							</div>
-							<!-- Google reCAPTCHA widget -->
-							<div class="g-recaptcha" data-sitekey="6LfBr7EpAAAAAFFtjYZ7TxDlolknZkhHxU2k_0Od"></div>
-							<div class="row">
-								<div class="col-lg-5 col-md-4 col-12">
-									<div class="form-group">
-										<div class="button">
-											<button type="submit" class="btn">Submit Inquiry</button>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-7 col-md-8 col-12">
-									<p>( We will confirm your inquiry via email or phone )</p>
-								</div>
-							</div>
-						
-						</form>
-					</div>
-					<div class="col-lg-6 col-md-12">
-						<div class="contact-image">
-							<img src="img/ITME_CONTACT_US.jpg" alt="Contact Image">
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		
-		<!-- End Appointment -->
-		
-		<!-- Start Newsletter Area -->
-		<!-- <section class="newsletter section">
+    <!--/Ens clients -->
+
+    <!-- Start Appointment -->
+    <section class="appointment">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section-title">
+              <h2>Get a Free IT Risk Check (Fast, No Pressure)</h2>
+              <img src="img/section-img.png" alt="Contact Section Image" />
+              <p>
+                Tell us what’s going on. We’ll identify the most likely causes
+                of downtime, security gaps, or data risk—and give you a clear
+                next step.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-12">
+            <!-- Updated action attribute to point to the PHP script -->
+            <form class="form" action="/mail/mail.php" method="post">
+              <!-- Honeypot (spam trap) -->
+              <div
+                style="
+                  position: absolute;
+                  left: -10000px;
+                  top: auto;
+                  width: 1px;
+                  height: 1px;
+                  overflow: hidden;
+                "
+              >
+                <label for="website_home">Website</label>
+                <input
+                  type="text"
+                  name="website"
+                  id="website_home"
+                  tabindex="-1"
+                  autocomplete="off"
+                />
+              </div>
+
+              <!-- Timestamp (bot friction) -->
+              <input
+                type="hidden"
+                name="form_time"
+                id="form_time_home"
+                value=""
+              />
+
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                  <div class="form-group">
+                    <input
+                      name="name"
+                      type="text"
+                      placeholder="Your name"
+                      required
+                      autocomplete="name"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-12">
+                  <div class="form-group">
+                    <input
+                      name="email"
+                      type="email"
+                      placeholder="Email address"
+                      required
+                      autocomplete="email"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-12">
+                  <div class="form-group">
+                    <input
+                      name="phone"
+                      type="text"
+                      placeholder="Phone (optional)"
+                      autocomplete="tel"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-12">
+                  <div class="form-group">
+                    <select class="form-control wide" name="issue" required>
+                      <option value="" disabled selected>
+                        What’s the biggest IT concern?
+                      </option>
+                      <option value="downtime">
+                        Random downtime / things breaking
+                      </option>
+                      <option value="slow">Slow computers or network</option>
+                      <option value="backup">Backups / data protection</option>
+                      <option value="security">Security concerns</option>
+                      <option value="not-sure">
+                        Not sure — just want it checked
+                      </option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="col-lg-12 col-md-12 col-12">
+                  <div class="form-group">
+                    <textarea
+                      name="message"
+                      placeholder="One sentence is enough — what’s going on?"
+                      required
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="g-recaptcha"
+                data-sitekey="6LfBr7EpAAAAAFFtjYZ7TxDlolknZkhHxU2k_0Od"
+              ></div>
+
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-12">
+                  <div class="form-group">
+                    <div class="button">
+                      <button type="submit" class="btn">
+                        Request My Free IT Risk Check
+                      </button>
+                    </div>
+                    <p style="font-size: 14px; margin-top: 10px">
+                      We’ll respond within 1 business day. No pressure. No sales
+                      script.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="contact-image">
+              <img src="img/footer_img.png" alt="Contact Image" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Appointment -->
+
+    <!-- Start Newsletter Area -->
+    <!-- <section class="newsletter section">
 			<div class="container">
 				<div class="row ">
 					<div class="col-lg-6  col-12">
@@ -896,131 +748,184 @@
 				</div>
 			</div>
 		</section> -->
-		<!-- /End Newsletter Area -->
-		
-		<!-- Footer Area -->
-		<footer id="footer" class="footer ">
-			<!-- Footer Top -->
-			<div class="footer-top">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-3 col-md-6 col-12">
-							<div class="single-footer">
-								<h2>About Us</h2>
-								<p>At IT Made Easy, we are a team of passionate software 
-									developers and IT specialists committed to delivering 
-									innovative solutions. Our expertise spans across full-stack 
-									web and desktop applications, database management, and providing 
-									round-the-clock support. We pride ourselves on creating software 
-									that's not only efficient and secure but also user-friendly and 
-									tailored to meet our clients' unique business needs.
-								</p>
-								<!-- Social -->
-								<ul class="social">
-									<li><a href="#"><i class="icofont-facebook"></i></a></li>
-									<li><a href="#"><i class="icofont-google-plus"></i></a></li>
-									<li><a href="#"><i class="icofont-twitter"></i></a></li>
-									<li><a href="#"><i class="icofont-vimeo"></i></a></li>
-									<li><a href="#"><i class="icofont-pinterest"></i></a></li>
-								</ul>
-								<!-- End Social -->
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-6 col-12">
-							<div class="single-footer f-link">
-								<h2>Quick Links</h2>
-								<div class="row">
-									<div class="col-lg-6 col-md-6 col-12">
-										<ul>
-											<li><a href="index.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Home</a></li>
-											<li><a href="contact.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Contact us Us</a></li>
-											<li><a href="portfolio-details.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Our Projects</a></li>
-											<li><a href="contact.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Get a Free Quote</a></li>
-											<!-- <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Other Links</a></li>	 -->
-										</ul>
-									</div>
-									<div class="col-lg-6 col-md-6 col-12">
-										<ul>
-											<!-- <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Consuling</a></li> -->
-											<!-- <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Finance</a></li> -->
-											<!-- <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Testimonials</a></li> -->
-											<!-- <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>FAQ</a></li> -->
-											<!-- <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Contact Us</a></li>	 -->
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-6 col-12">
-							<div class="single-footer">
-								<h2>Open Hours</h2>
-								<p>Reach out any time</p>
-								<ul class="time-sidual">
-									<li class="day">Monday - Friday <span>8:00am-5:00pm</span></li>
-									<li class="day">Sunday - Saturday <span>24hr Emergency Support</span></li>
-								</ul>
-							</div>
-						</div>
-					
-					</div>
-				</div>
-			</div>
-			<!--/ End Footer Top -->
-			<!-- Copyright -->
-			<div class="copyright">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12 col-md-12 col-12">
-							<div class="copyright-content">
-								<p>© Copyright 2024  |  All Rights Reserved by <a href="https://www.itme573.com" target="_blank">ITME LLC</a> </p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--/ End Copyright -->
-		</footer>
-		<!--/ End Footer Area -->
-		
-		<!-- jquery Min JS -->
-        <script src="js/jquery.min.js"></script>
-		<!-- jquery Migrate JS -->
-		<script src="js/jquery-migrate-3.0.0.js"></script>
-		<!-- jquery Ui JS -->
-		<script src="js/jquery-ui.min.js"></script>
-		<!-- Easing JS -->
-        <script src="js/easing.js"></script>
-		<!-- Color JS -->
-		<script src="js/colors.js"></script>
-		<!-- Popper JS -->
-		<script src="js/popper.min.js"></script>
-		<!-- Bootstrap Datepicker JS -->
-		<script src="js/bootstrap-datepicker.js"></script>
-		<!-- Jquery Nav JS -->
-        <script src="js/jquery.nav.js"></script>
-		<!-- Slicknav JS -->
-		<script src="js/slicknav.min.js"></script>
-		<!-- ScrollUp JS -->
-        <script src="js/jquery.scrollUp.min.js"></script>
-		<!-- Niceselect JS -->
-		<script src="js/niceselect.js"></script>
-		<!-- Tilt Jquery JS -->
-		<script src="js/tilt.jquery.min.js"></script>
-		<!-- Owl Carousel JS -->
-        <script src="js/owl-carousel.js"></script>
-		<!-- counterup JS -->
-		<script src="js/jquery.counterup.min.js"></script>
-		<!-- Steller JS -->
-		<script src="js/steller.js"></script>
-		<!-- Wow JS -->
-		<script src="js/wow.min.js"></script>
-		<!-- Magnific Popup JS -->
-		<script src="js/jquery.magnific-popup.min.js"></script>
-		<!-- Counter Up CDN JS -->
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-		<!-- Bootstrap JS -->
-		<script src="js/bootstrap.min.js"></script>
-		<!-- Main JS -->
-		<script src="js/main.js"></script>
-    </body>
+    <!-- /End Newsletter Area -->
+
+    <!-- Footer Area -->
+    <footer id="footer" class="footer">
+      <!-- Footer Top -->
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-12">
+              <div class="single-footer">
+                <h2>About Us</h2>
+                <p>
+                  ITME provides local IT support for small businesses across
+                  Southeast Missouri. We help prevent downtime, protect data,
+                  and keep teams productive with reliable networks, verified
+                  backups, and practical security.
+                </p>
+                <p style="margin-top: 10px; font-size: 14px; opacity: 0.9">
+                  Want clarity fast?
+                  <a href="contact.html" style="text-decoration: underline"
+                    >Request a Free IT Risk Check</a
+                  >.
+                </p>
+                <!-- Social -->
+                <ul class="social">
+                  <li>
+                    <a
+                      href="https://www.facebook.com/itme573"
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      <i class="icofont-facebook"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.instagram.com/itmadeeasy573"
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      <i class="icofont-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://share.google/3JuIJmFUZ2Uy9uaLA"
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      <i class="icofont-google-map"></i>
+                    </a>
+                  </li>
+                </ul>
+
+                <!-- End Social -->
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+              <div class="single-footer f-link">
+                <h2>Quick Links</h2>
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-12">
+                    <ul>
+                      <li>
+                        <a href="index.html"
+                          ><i class="fa fa-caret-right" aria-hidden="true"></i
+                          >Home</a
+                        >
+                      </li>
+                      <li>
+                        <a href="contact.html"
+                          ><i class="fa fa-caret-right" aria-hidden="true"></i
+                          >Contact Us</a
+                        >
+                      </li>
+                      <li>
+                        <a href="contact.html"
+                          ><i class="fa fa-caret-right" aria-hidden="true"></i
+                          >Free IT Risk Check</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-12">
+                    <ul>
+                      <!-- <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Consuling</a></li> -->
+                      <!-- <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Finance</a></li> -->
+                      <!-- <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Testimonials</a></li> -->
+                      <!-- <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>FAQ</a></li> -->
+                      <!-- <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Contact Us</a></li>	 -->
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+              <div class="single-footer">
+                <h2>Open Hours</h2>
+                <p>Reach out any time</p>
+                <ul class="time-sidual">
+                  <li class="day">
+                    Monday - Friday <span>8:00am-5:00pm</span>
+                  </li>
+                  <li class="day">
+                    After Hours <span>Emergency Support Available</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/ End Footer Top -->
+      <!-- Copyright -->
+      <div class="copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-12">
+              <div class="copyright-content">
+                <p>
+                  © Copyright 2024 | All Rights Reserved by
+                  <a href="https://www.itme573.com" target="_blank">ITME LLC</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/ End Copyright -->
+    </footer>
+    <!--/ End Footer Area -->
+
+    <!-- jquery Min JS -->
+    <script src="js/jquery.min.js"></script>
+    <!-- jquery Migrate JS -->
+    <script src="js/jquery-migrate-3.0.0.js"></script>
+    <!-- jquery Ui JS -->
+    <script src="js/jquery-ui.min.js"></script>
+    <!-- Easing JS -->
+    <script src="js/easing.js"></script>
+    <!-- Color JS -->
+    <script src="js/colors.js"></script>
+    <!-- Popper JS -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap Datepicker JS -->
+    <script src="js/bootstrap-datepicker.js"></script>
+    <!-- Jquery Nav JS -->
+    <script src="js/jquery.nav.js"></script>
+    <!-- Slicknav JS -->
+    <script src="js/slicknav.min.js"></script>
+    <!-- ScrollUp JS -->
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <!-- Niceselect JS -->
+    <script src="js/niceselect.js"></script>
+    <!-- Tilt Jquery JS -->
+    <script src="js/tilt.jquery.min.js"></script>
+    <!-- Owl Carousel JS -->
+    <script src="js/owl-carousel.js"></script>
+    <!-- counterup JS -->
+    <script src="js/jquery.counterup.min.js"></script>
+    <!-- Steller JS -->
+    <script src="js/steller.js"></script>
+    <!-- Wow JS -->
+    <script src="js/wow.min.js"></script>
+    <!-- Magnific Popup JS -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <!-- Counter Up CDN JS -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+    \
+    <script>
+      (function () {
+        var el = document.getElementById("form_time_home");
+        if (el) el.value = String(Date.now());
+      })();
+    </script>
+  </body>
 </html>
